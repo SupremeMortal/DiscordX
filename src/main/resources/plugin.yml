@@ -1,0 +1,6 @@
+name: DiscordX
+version: '0.1'
+author: Civiled
+api: ['1.0.0']
+description: An advanced Discord plugin for NukkitX
+main: com.rezolt.DiscordX.DiscordX

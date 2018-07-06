@@ -1,0 +1,12 @@
+discordBotToken: "Create Your Own Bot"
+guildId: "Discord Server ID"
+channelId: "Discord Server Channel ID"
+
+joinMessages: true
+joinMessage: "[player] joined the server!"
+leaveMessages: true
+leaveMessage: "[player] left the server"
+serverUpMessages: true
+serverUpMessage: "The Server is now online!"
+serverDownMessages: true
+serverDownMessage: "The Server is now offline"
