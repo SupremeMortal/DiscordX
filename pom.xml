@@ -37,6 +37,7 @@
     </dependencies>
 
     <build>
+        <finalName>DiscordX</finalName>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
             <plugin>
