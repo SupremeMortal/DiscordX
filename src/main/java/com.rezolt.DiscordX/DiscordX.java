@@ -35,6 +35,7 @@ public class DiscordX extends PluginBase {
             this.getLogger().info(TextFormat.RED + "JDA not found! Please refer to this: ");
         }
     }
+
     @Override
     public void onDisable()
     {

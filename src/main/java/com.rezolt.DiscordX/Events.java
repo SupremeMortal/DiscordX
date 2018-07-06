@@ -17,20 +17,18 @@ public class Events implements Listener {
         this.guild = guild;
         this.main = discord;
     }
+
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
-        if(main.getConfig().getBoolean("joinMessages", true))
+        if (main.getConfig().getBoolean("joinMessages", true)) {
             channel.sendMessage(main.getConfig().getString("joinMessage", "[player] joined the server!").replace("[player]", event.getPlayer().getName())).queue();
-        else
-            return;
+        }
     }
+
     @EventHandler
     public void onLeave(PlayerQuitEvent event) {
-        if(main.getConfig().getBoolean("leaveMessages", true))
+        if (main.getConfig().getBoolean("leaveMessages", true)) {
             channel.sendMessage(main.getConfig().getString("leaveMessage", "[player] left the server").replace("[player]", event.getPlayer().getName())).queue();
-        else
-            return;
+        }
     }
-
-
 }
